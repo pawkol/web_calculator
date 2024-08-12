@@ -1,0 +1,7 @@
+services:
+  calc:
+    build: .
+    command: python /app/app/app.py
+    ports:
+      - target: 8080
+        published: 5004

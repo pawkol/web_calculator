@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.calculator {
+    border: 2px solid green;
+    padding: 20px;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid green;
+    background-color: black;
+    color: green;
+}
+
+button {
+    padding: 10px 20px;
+    border: 1px solid green;
+    background-color: black;
+    color: green;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+    color: black;
+}
+
+.result {
+    margin-top: 10px;
+}
+
