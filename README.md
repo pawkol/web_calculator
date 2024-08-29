@@ -1,5 +1,5 @@
 # Calculator application
-Using command: docker compose up -d
+Use command in web_calculator directory -> docker compose up -d
 
-Port 5004
+You can view tha page on localhost:5004
 
